@@ -1,4 +1,12 @@
 apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: payments
+  description: All payments services
+spec:
+  owner: sales
+---
+apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
   name: all-services
