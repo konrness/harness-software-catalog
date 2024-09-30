@@ -5,6 +5,9 @@ metadata:
   description: Version 1.2.3 of payments-api-service
   annotations:
     docker.io/image: "mcdonalds/payments-api-service:1.2.3"
+  links:
+    - url: https://hub.docker.com/mcdonalds/payments-api-service:1.2.3
+      title: Artifact Link
 spec:
   type: artifact
   owner: Sales
