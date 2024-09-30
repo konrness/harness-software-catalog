@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: payments-api-service-1.2.3
+  description: Version 1.2.3 of payments-api-service
+  labels:
+    artifact: mcdonalds/payments-api-service:1.2.3
+spec:
+  type: artifact
+  subcomponentOf: payments-api-service
+  
