@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: payments-api-service
+  annotations:
+    github.com/project-slug: konrness/harness-software-catalog
+  links:
+    - url: https://payments-api.example.com
+      title: Payments API Endpoint
+spec:
+  type: service
+  lifecycle: production
+  owner: Sales
+  system: payments
