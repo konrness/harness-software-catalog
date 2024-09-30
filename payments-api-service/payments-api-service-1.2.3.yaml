@@ -7,5 +7,6 @@ metadata:
     docker.io/image: "mcdonalds/payments-api-service:1.2.3"
 spec:
   type: artifact
+  owner: Sales
   subcomponentOf: payments-api-service
   
