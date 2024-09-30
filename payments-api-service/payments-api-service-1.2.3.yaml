@@ -8,6 +8,15 @@ metadata:
   links:
     - url: https://hub.docker.com/mcdonalds/payments-api-service:1.2.3
       title: "mcdonalds/payments-api-service:1.2.3"
+  testCodeCoveragePercent: 90
+  criticalSecurityVulnerabilities: 5
+  highSecurityVulnerabilities: 0
+  security:
+    vulnerabilities:
+      critical: 5
+      high: 0
+      medium: 15
+      low: 25
 spec:
   type: artifact
   owner: Sales
