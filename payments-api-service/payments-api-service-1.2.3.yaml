@@ -8,6 +8,6 @@ metadata:
 spec:
   type: artifact
   owner: Sales
-  subcomponentOf: service:payments-api-service
-  parent: service:payments-api-service
-  dependencyOf: service:payments-api-service
+  subcomponentOf: component:payments-api-service
+  parent: component:payments-api-service
+  dependencyOf: component:payments-api-service
