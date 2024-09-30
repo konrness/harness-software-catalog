@@ -5,4 +5,4 @@ metadata:
 spec:
   type: url
   targets:
-    - ./pricing-api-service/catalog-info.yaml
+    - ./payments-api-service/catalog-info.yaml
