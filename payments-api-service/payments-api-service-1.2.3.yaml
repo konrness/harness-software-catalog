@@ -9,4 +9,5 @@ spec:
   type: artifact
   owner: Sales
   subcomponentOf: payments-api-service
-  
+  parent: payments-api-service
+  dependencyOf: payments-api-service
