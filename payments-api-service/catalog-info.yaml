@@ -8,7 +8,7 @@ metadata:
   links:
     - url: https://payments-api.example.com
       title: Payments API Endpoint
-  datadogServiceHealth: 100
+  datadogServiceHealth: 90
 spec:
   type: service
   lifecycle: production
