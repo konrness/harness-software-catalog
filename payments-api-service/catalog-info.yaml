@@ -4,12 +4,11 @@ metadata:
   name: payments-api-service
   annotations:
     github.com/project-slug: konrness/harness-software-catalog
+    harness.io/cd-serviceId: paymentsapiservice
   links:
     - url: https://payments-api.example.com
       title: Payments API Endpoint
   datadogServiceHealth: 100
-annotations:
-  harness.io/cd-serviceId: paymentsapiservice
 spec:
   type: service
   lifecycle: production
