@@ -9,7 +9,7 @@ metadata:
       title: Payments API Endpoint
   datadogServiceHealth: 100
 annotations:
-  harness.io/cd-serviceId: ArtifactoryJAR
+  harness.io/cd-serviceId: paymentsapiservice
 spec:
   type: service
   lifecycle: production
