@@ -8,6 +8,8 @@ metadata:
     - url: https://payments-api.example.com
       title: Payments API Endpoint
   datadogServiceHealth: 100
+annotations:
+  harness.io/cd-serviceId: ArtifactoryJAR
 spec:
   type: service
   lifecycle: production
